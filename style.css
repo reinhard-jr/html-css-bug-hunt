@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin 20px;  /* ERROR: Missing colon */
+    margin: 20px;  /* ERROR FIXED: Added missing colon */
     padding: 20px;
     background-color: #f4f4f4;
 }
@@ -12,26 +12,26 @@ nav ul {
 }
 
 nav li {
-    display inline-block;  /* ERROR: Missing colon */
+    display: inline-block;  /* ERROR FIXED: Added missing colon */
     margin-right: 15px;
 }
 
 nav a {
     text-decoration: none;
     color: blue;
-    font-weight bold;  /* ERROR: Missing colon */
+    font-weight: bold;  /* ERROR FIXED: Added missing colon */
 }
 
 .btn {
     background-color: blue;
     color: white;
     padding: 10px 20px;
-    border none;  /* ERROR: Missing colon */
+    border: none;  /* ERROR FIXED: Added missing colon */
     cursor: pointer;
-    text-decoration: non;  /* ERROR: Incorrect value */
+    text-decoration: none;  /* ERROR FIXED: Corrected 'non' to 'none' */
     border-radius: 5px;
 }
 
 .btn:hover {
-    background color: darkblue;  /* ERROR: Missing colon */
+    background-color: darkblue;  /* ERROR FIXED: Added missing colon */
 }
